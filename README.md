@@ -1,4 +1,4 @@
-# nate4101.github.io
+# Metric Aid App Developer Take Home
  Metric Aid App Developer Take Home
  - HTML Page: index.html
  - javascript: script.js
