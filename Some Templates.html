@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Template</title>
+        <title>Template where comments aren't clickable</title>
         <meta name ="description" content="Metric Aid, Mobile App Developer Take Home, Using semantic-ui">
         <meta charset="UTF-8">
         <meta name="author" content="Nathan Young">
@@ -21,24 +21,27 @@
     <!-- Navigation Bar / Nav Menu -->
     <div class="container">        
         <div class="ui borderless fluid three item menu">
-            <div class="link item">
+            <a class="item" href="https://www.metricaid.com/">
                 <div class="ui tiny image">
                     <img 
                         src="https://static.wixstatic.com/media/47b6e0_7214468da4914b328e0b7ea9c7ab1180~mv2.png/v1/fill/w_346,h_95,al_c,lg_1,q_85/MetricAid%20Full-%20Dots%20.webp" 
                         alt="N/A">
                 </div>
-            </div>
+            </a>
             <div class="item">
                 <div class="middle aligned content">
                     <h3>Take Home - Blog Page</h3>
                 
                 </div>
             </div>
-            <div class="item">
-                <div class="right floated ">
-                    <h3>Nathan Young</3>
+            <a class="item" href="https://github.com/nate4101/nate4101.github.io">
+                <div class="right floated content ">
+                    <div class="header">
+                        <i class="github icon"></i>
+                        Nathan Young
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div> 
     <!-- End NavBar-->
@@ -48,171 +51,87 @@
           <div class="column"></div>
         </div>
     </div>
-    <br><br>
+    <h1> Loading</h1>
+    <div class="ui segment" id="loading">
+        <div class="ui active inverted dimmer" >
+          <div class="ui indeterminate text active loader">
+            Preparing Data... (This might take a second)
+          </div>
+        </div>
+        <br><br>
+        <br><br>
+        <br><br>
+      </div>
+      <br>
     <!-- Blog Posts Container-->
     <div class="ui grid container">
-
+        
         <!-- Blog Post 1-->
-        <div class="ui fluid raised link purple card">
-            <div class="content">
-              <div class="center aligned header">
-                  <!--Title-->
-                  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+        <div class="sixteen wide column Posts">
+            <div class="ui attached fluid link purple card" style="margin-bottom: 0em !important;">
+                <div class="content">
+                  <div class="center aligned header">
+                      <!--Title-->
+                      sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+                    </div>
                 </div>
-            </div>
-            <div class="content">
-              <div class="description">
-                  <!-- body, \n becomes <br> -->
-                <p>
-                    quia et suscipit<br>
-                    suscipit recusandae consequuntur expedita et cum<br>
-                    reprehenderit molestiae ut ut quas totam<br>
-                    nostrum rerum est autem sunt rem eveniet architecto
-                </p>
-              </div>
-            </div>
-            <div class="extra content">
-                <div class="right floated author">
-                    <img class="ui avatar image" src="https://semantic-ui.com/images/avatar/small/matt.jpg"> 
-                    <!-- Name -->
-                    Leanne Graham
+                <div class="content">
+                  <div class="description">
+                      <!-- body, \n becomes <br> -->
+                    <p>
+                        quia et suscipit<br>
+                        suscipit recusandae consequuntur expedita et cum<br>
+                        reprehenderit molestiae ut ut quas totam<br>
+                        nostrum rerum est autem sunt rem eveniet architecto
+                    </p>
+                  </div>
                 </div>
                 <div class="extra content">
-                    <span class="left floated like">
-                    <i class="like icon"></i>
-                    Favourite
-                </span>
-                </div>
-            </div>
-            <!-- Post 1 Comment box-->
-            <div class="ui 'hidden' message message-list">
-                <span >
-                    Comments
-                </span>
-                <div class="ui attached tiny message">
-                    <div class="header">
-                        <h3>id labore ex et quam laborum</h3>
+                    <div class="right floated author">
+                        <img class="ui avatar image" src="https://semantic-ui.com/images/avatar/small/matt.jpg"> 
+                        <!-- Name -->
+                        Leanne Graham
                     </div>
-                    <div class="description">
-                        <p>
-                            laudantium enim quasi est quidem magnam voluptate ipsam eos
-                        <br>
-                        
-                            tempora quo necessitatibus
-                        <br>
-                        
-                            dolor quam autem quasi
-                        <br>
-                        
-                            reiciendis et nam sapiente
-                        </p>
-                     </div>
-                     <hr>
-                     Eliseo@gardner.biz  
-                </div>
-                <br>
-                <div class="ui attached tiny message">
-                    <div class="header">
-                        <h3>quo vero reiciendis velit similique earum</h3>
+                    <div class="extra content">
+                        <span class="left floated like">
+                        <i class="like icon"></i>
+                        Favourite
+                    </span>
                     </div>
-                    <div class="description">
-                        <p>
-                            est natus enim nihil est dolore omnis voluptatem numquam
-                        <br>
-                        et omnis occaecati quod ullam at
-                        <br>
-                        voluptatem error expedita pariatur
-                        <br>
-                        nihil sint nostrum voluptatem reiciendis et
-                        </p>
-                     </div>
-                     <hr>
-                     Jayne_Kuhic@sydney.com  
                 </div>
             </div>
-            <!-- Blog Post 1-->
-        <div class="ui fluid raised link purple card">
-            <div class="content">
-              <div class="center aligned header">
-                  <!--Title-->
-                  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
-                </div>
-            </div>
-            <div class="content">
-              <div class="description">
-                  <!-- body, \n becomes <br> -->
-                <p>
-                    quia et suscipit<br>
-                    suscipit recusandae consequuntur expedita et cum<br>
-                    reprehenderit molestiae ut ut quas totam<br>
-                    nostrum rerum est autem sunt rem eveniet architecto
-                </p>
-              </div>
-            </div>
-            <div class="extra content">
-                <div class="right floated author">
-                    <img class="ui avatar image" src="https://semantic-ui.com/images/avatar/small/matt.jpg"> 
-                    <!-- Name -->
-                    Leanne Graham
-                </div>
-                <div class="extra content">
-                    <span class="left floated like">
-                    <i class="like icon"></i>
-                    Favourite
-                </span>
-                </div>
-            </div>
-            <!-- Post 2 Comment box-->
-            <div class="ui message message-list">
-                <span >
-                    Comments
-                </span>
-                <div class="ui attached tiny message">
-                    <div class="header">
-                        <h3>id labore ex et quam laborum</h3>
-                    </div>
-                    <div class="description">
-                        <p>
-                            laudantium enim quasi est quidem magnam voluptate ipsam eos
-                        <br>
-                        
-                            tempora quo necessitatibus
-                        <br>
-                        
-                            dolor quam autem quasi
-                        <br>
-                        
-                            reiciendis et nam sapiente
-                        </p>
-                     </div>
-                     <hr>
-                     Eliseo@gardner.biz  
-                </div>
-                <br>
-                <div class="ui attached tiny message">
-                    <div class="header">
-                        <h3>quo vero reiciendis velit similique earum</h3>
-                    </div>
-                    <div class="description">
-                        <p>
-                            est natus enim nihil est dolore omnis voluptatem numquam
-                        <br>
-                        et omnis occaecati quod ullam at
-                        <br>
-                        voluptatem error expedita pariatur
-                        <br>
-                        nihil sint nostrum voluptatem reiciendis et
-                        </p>
-                     </div>
-                     <hr>
-                     Jayne_Kuhic@sydney.com  
-                </div>
-            </div>
-            
         </div>
-        
-            
-        
+         
+        <!-- Post 1 Comment box-->
+        <div class="sixteen wide attached column message-list">
+            <div class="ui fluid message ">
+                <h3 >
+                    Comments
+                </h3>
+                <div class="ui attached tiny message">
+                    <div class="header">
+                        <h4>id labore ex et quam laborum</h4>
+                    </div>
+                    <div class="description">
+                        <p>
+                            laudantium enim quasi est quidem magnam voluptate ipsam eos
+                        <br>
+                        
+                            tempora quo necessitatibus
+                        <br>
+                        
+                            dolor quam autem quasi
+                        <br>
+                        
+                            reiciendis et nam sapiente
+                        </p>
+                        </div>
+                        <hr>
+                        Eliseo@gardner.biz  
+                </div>
+                <br>
+            </div>
+        </div>
         
     </div>
     <!-- Blog Post 1 Comments-->
@@ -301,6 +220,11 @@
         crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script> 
+        $('.Posts').on('click','.card', function(){
+            $(this).siblings('.message-list').slideToggle(500);
+        })
+    </script>
 </body>
 <footer>
 

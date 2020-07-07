@@ -129,7 +129,7 @@ card.appendChild(cardBodyContainer);
             let likeIcon = document.createElement('i');
             likeIcon.className="like icon";
         unnecesaryLikeButton.appendChild(likeIcon);
-        unnecesaryLikeButton.innerHTML+="Favourite";
+        unnecesaryLikeButton.innerHTML+=Math.trunc(Math.random()*100);
     cardExtraContainer.appendChild(unnecesaryLikeButton);
 card.appendChild(cardExtraContainer);
 // Append each comment box.
@@ -211,7 +211,6 @@ async function populateData(){
     .then(json => comments=json);
     return([users,posts,comments]);
 }
-
 
 /**
  * JQuery onClick Event:
